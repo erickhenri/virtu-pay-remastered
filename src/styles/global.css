@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+background: rgb(135 121 181 / 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+background: #be0506; /* fallback for old browsers /
+background: -webkit-linear-gradient(to right, #d31027, #ea384d); / Chrome 10-25, Safari 5.1-6 /
+background: linear-gradient(to right, #d31027, #ea384d); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 30px;
+
+}
