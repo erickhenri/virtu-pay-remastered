@@ -12,7 +12,7 @@ export function Home() {
         <img
           src={PageDashboard}
           alt="Pagina de dashboard"
-          className="h-[90%] lg:hidden"
+          className="w-full lg:hidden"
         />
         <ul className="grid max-w-max grid-cols-2 justify-between gap-1 text-left text-sm font-medium text-blue-700 xl:text-base">
           <li>• Saques rápidos</li>
