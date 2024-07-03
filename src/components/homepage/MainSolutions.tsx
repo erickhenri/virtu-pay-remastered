@@ -1,3 +1,11 @@
+import {
+  Cpu,
+  Fingerprint,
+  Gear,
+  Info,
+  Question,
+  ShoppingCart,
+} from '@phosphor-icons/react'
 import { CardSolutions } from './CardSolutions'
 
 export function MainSolutions() {
@@ -10,35 +18,35 @@ export function MainSolutions() {
         Conheça nossas <strong className="block">principais soluções</strong>
       </h2>
       <div className="z-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:w-2/3">
-        <CardSolutions title="E-commerce">
+        <CardSolutions title="E-commerce" icon={ShoppingCart}>
           Gateway totalmente intuitivo ideal para a Implementação no seu
           ecommerce, maximize e otimize as suas vendas. Nossa plataforma foi
           criada com o intuito de lhe possibilitar escalar ao infinito sem se
           preocupar com limitações Financeiras.
         </CardSolutions>
-        <CardSolutions title="Suporte">
+        <CardSolutions title="Suporte" icon={Question}>
           Contamos com um Suporte Exclusivo por Contas, com 24 Horas de
           Prontidão para sanar dúvidas, Esclarecer questões sobre a sua operação
           e principalmente no auxilio para o seu negócio não parar.
         </CardSolutions>
-        <CardSolutions title="Info produtos">
+        <CardSolutions title="Info produtos" icon={Info}>
           Oferecemos uma plataforma centralizada que também possibilita
           gerenciar e integrar produtos digitais como: info produtos(e-books e
           cursos online), iGaming e Rifas digitais.
         </CardSolutions>
-        <CardSolutions title="Anti fraude">
+        <CardSolutions title="Anti fraude" icon={Fingerprint}>
           Sistema Anti Fraude Sofisticado e totalmente competente, fazendo com
           que a sua operação tenha segurança e ainda garantindo taxa de
           aprovação superior a 97%. Pois contamos com um hub inteligente com
           várias adquirentes trabalhando simultaneamente e soluções
           pre-chargeback Visa e Martercard.
         </CardSolutions>
-        <CardSolutions title="Processamentos">
+        <CardSolutions title="Processamentos" icon={Cpu}>
           Contamos com uma vasta lista de parceiros para simplificar, otimizar e
           potencializar o nosso ecossistema. São mais de 15 parceiros nos
           auxiliando no processamento para a sua operação não parar.
         </CardSolutions>
-        <CardSolutions title="Painel de controle">
+        <CardSolutions title="Painel de controle" icon={Gear}>
           Nosso Painel de Controle oferece uma interface totalmente intuitiva,
           equipada com todas as funcionalidades necessárias para que você
           obtenha o Êxito em seu negócio Digital.
