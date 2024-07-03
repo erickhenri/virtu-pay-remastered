@@ -3,7 +3,10 @@ import PageDashboard from '../assets/page-dashboard.png'
 
 export function Home() {
   return (
-    <section className="relative mt-8 flex flex-col items-center justify-center bg-no-repeat p-8 shadow sm:mt-12 sm:p-12 lg:flex-row lg:items-center lg:justify-normal lg:px-16 lg:py-32 xl:px-20 xl:py-64">
+    <section
+      id="home"
+      className="relative mt-8 flex flex-col items-center justify-center bg-no-repeat p-8 shadow sm:mt-12 sm:p-12 lg:flex-row lg:items-center lg:justify-normal lg:px-16 lg:py-32 xl:px-20 xl:py-64"
+    >
       <div className="flex flex-col items-center gap-5 text-center lg:w-2/5 lg:items-baseline lg:text-left">
         <h1 className="text-2xl font-medium text-red-500 sm:text-3xl xl:text-4xl">
           <strong className="block">Acelere Seu Sucesso: </strong>

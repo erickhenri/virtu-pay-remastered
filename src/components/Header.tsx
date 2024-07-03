@@ -8,7 +8,7 @@ export function Header() {
 
   return (
     <header className="fixed z-20 flex w-screen items-center justify-between bg-red-600 px-6 py-2 shadow-lg">
-      <a href="/">
+      <a href="#home">
         <img src={Logo} alt="" className="h-8 w-auto cursor-pointer xl:h-12" />
       </a>
       <span className="font-semibold text-[#41faf9] xl:text-lg">
