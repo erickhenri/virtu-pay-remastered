@@ -1,4 +1,4 @@
-import Padlock from '../assets/padlock.png'
+import Padlock from '../../assets/padlock.png'
 
 export function SecurePayments() {
   return (

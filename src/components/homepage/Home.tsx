@@ -1,5 +1,5 @@
 import { Button } from '../Button'
-import PageDashboard from '../assets/page-dashboard.png'
+import PageDashboard from '../../assets/page-dashboard.png'
 
 export function Home() {
   return (

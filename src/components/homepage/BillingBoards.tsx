@@ -1,4 +1,4 @@
-import Plates from '../assets/plates.png'
+import Plates from '../../assets/plates.png'
 
 export function BillingBoards() {
   return (

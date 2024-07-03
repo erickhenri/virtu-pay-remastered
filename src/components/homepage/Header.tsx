@@ -1,5 +1,5 @@
 import { List } from '@phosphor-icons/react'
-import Logo from '../assets/vitupay-logotipo.png'
+import Logo from '../../assets/vitupay-logotipo.png'
 import { Button } from '../Button'
 import { useState } from 'react'
 

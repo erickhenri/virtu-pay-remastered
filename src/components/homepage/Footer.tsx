@@ -1,4 +1,4 @@
-import Logo from '../assets/vitupay-logotipo.png'
+import Logo from '../../assets/vitupay-logotipo.png'
 
 export function Footer() {
   return (
