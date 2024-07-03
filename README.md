@@ -1,7 +1,7 @@
 # VirtuPay Remastered
 
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="https://virtu-pay-remastered.vercel.app/readme/Virtupay%20-%20homepage.gif" alt="Home page desktop">
 
 > O projeto consiste na re-criação do site da VirtuPay, com o objetivo de demonstrar meus conhecimentos em programação front-end e desing UX/UI
 
@@ -17,6 +17,12 @@ O projeto conta com algumas alterações no desing. Melhorias que eu acreditei s
 ## Design
 
 Todo o design do projeto foi recriado no figma, antes de ser programado. O link para o projeto é <a href="https://www.figma.com/design/aLWpONxCsfwlSWSIVioNV5/VirtuPay-Remastered-Desing">VirtuPay Remastered Desing</a>
+
+## Verão mobile
+
+O site conta também com sua versão mobile totalmente responsiva:
+
+<img href="https://virtu-pay-remastered.vercel.app/readme/Virtupay%20-%20homepage%20mobile.gif" alt="home page mobile">
 
 ## 💻 Pré-requisitos para executar o projeto em seu computador
 
