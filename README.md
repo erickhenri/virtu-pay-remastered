@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# VirtuPay Remastered
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<img src="imagem.png" alt="Exemplo imagem">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> O projeto consiste na re-criação do site da VirtuPay, com o objetivo de demonstrar meus conhecimentos em programação front-end e desing UX/UI
 
-## Expanding the ESLint configuration
+### Mudanças
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O projeto conta com algumas alterações no desing. Melhorias que eu acreditei serem úteis para o projeto.
 
-- Configure the top-level `parserOptions` property like this:
+- [x] Responsividade para todos os tamanhos de telas
+- [x] Adição de novas cores de contraste em relação ao vemelho
+- [x] Mudança na ordem das cores, com a inteção de trazer mais harmonia para o projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+## Design
+
+Todo o design do projeto foi recriado no figma, antes de ser programado. O link para o projeto é <a href="https://www.figma.com/design/aLWpONxCsfwlSWSIVioNV5/VirtuPay-Remastered-Desing">VirtuPay Remastered Desing</a>
+
+## 💻 Pré-requisitos para executar o projeto em seu computador
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+- Você instalou a versão mais recente do `<nodejs / git>`
+- Você tem uma máquina `<Windows / Linux / Mac>`.
+
+## 🚀 Instalando o VirtuPay Remastered
+
+Para instalar o VirtuPay Remastered, siga estas etapas:
+
+Faça o clone no repositório na sua máquina:
+
+```
+git clone https://github.com/erickhenri/virtu-pay-remastered.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Faça a instalação das dependências:
+
+```
+npm install
+```
+
+## ☕ Usando VirtuPay Remastered
+
+Para usar VirtuPay Remastered, execute o código:
+
+```
+npm run dev
+```
+
