@@ -1,6 +1,6 @@
 import { List } from '@phosphor-icons/react'
 import Logo from '../assets/vitupay-logotipo.png'
-import { Button } from './Button'
+import { Button } from '../Button'
 import { useState } from 'react'
 
 export function Header() {

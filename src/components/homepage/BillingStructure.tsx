@@ -1,5 +1,5 @@
 import { Barcode, CreditCard, PixLogo } from '@phosphor-icons/react'
-import { Button } from './Button'
+import { Button } from '../Button'
 
 export function BillingStructure() {
   return (

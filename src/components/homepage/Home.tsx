@@ -1,4 +1,4 @@
-import { Button } from './Button'
+import { Button } from '../Button'
 import PageDashboard from '../assets/page-dashboard.png'
 
 export function Home() {
