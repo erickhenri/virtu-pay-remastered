@@ -2,7 +2,10 @@ import { Button } from '../Button'
 
 export function Reasons() {
   return (
-    <section className="bg-man-phone relative flex h-[64rem] flex-col justify-end overflow-y-hidden bg-gray-100 bg-[65%_10%] bg-no-repeat p-8 text-gray-100 [background-size:auto_60%] sm:h-[72rem] sm:bg-[65%_5rem] sm:p-12 md:h-auto md:items-end md:justify-normal md:bg-[-14rem_13rem] md:px-0 md:py-24 md:[background-size:auto_90%] lg:bg-[-18rem_8rem] lg:[background-size:auto_110%] xl:bg-[-26rem_-4rem] xl:py-32 xl:[background-size:auto]">
+    <section
+      id="reasons"
+      className="bg-man-phone relative flex h-[64rem] flex-col justify-end overflow-y-hidden bg-gray-100 bg-[65%_10%] bg-no-repeat p-8 text-gray-100 [background-size:auto_60%] sm:h-[72rem] sm:bg-[65%_5rem] sm:p-12 md:h-auto md:items-end md:justify-normal md:bg-[-14rem_13rem] md:px-0 md:py-24 md:[background-size:auto_90%] lg:bg-[-18rem_8rem] lg:[background-size:auto_110%] xl:bg-[-26rem_-4rem] xl:py-32 xl:[background-size:auto]"
+    >
       <h2 className="flex-1 text-center text-2xl text-red-900 sm:text-3xl md:hidden xl:text-4xl">
         Motivos que nos tornam
         <strong className="block">líder no mercado</strong>

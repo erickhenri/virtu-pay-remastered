@@ -2,7 +2,10 @@ import Logo from '../../assets/vitupay-logotipo.png'
 
 export function Footer() {
   return (
-    <footer className="bg-footer flex flex-col items-start gap-5 bg-red-900 bg-[50%] bg-no-repeat p-8 sm:p-12 lg:p-16 xl:p-20">
+    <footer
+      id="footer"
+      className="bg-footer flex flex-col items-start gap-5 bg-red-900 bg-[50%] bg-no-repeat p-8 sm:p-12 lg:p-16 xl:p-20"
+    >
       <img
         src={Logo}
         alt="logo virtual pay"

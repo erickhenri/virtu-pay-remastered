@@ -13,6 +13,7 @@
     "@phosphor-icons/react": "^2.1.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "scrollreveal": "^4.0.9",
     "tailwind-merge": "^2.3.0",
     "tailwind-variants": "^0.2.1"
   },
@@ -20,6 +21,7 @@
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/scrollreveal": "^0.0.11",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react": "^4.3.1",

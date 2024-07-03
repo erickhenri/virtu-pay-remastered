@@ -11,7 +11,22 @@ import { Footer } from './components/homepage/Footer'
 import { Contact } from './components/homepage/Contact'
 import { Integration } from './components/homepage/Integration'
 
+import ScrollReveal from 'scrollreveal'
+import { useEffect } from 'react'
+
 export function App() {
+  useEffect(() => {
+    const scrollReveal = ScrollReveal({
+      origin: 'left',
+      distance: '30px',
+      duration: 700,
+      reset: false,
+    })
+
+    scrollReveal.reveal(
+      `#home,#solutions, #reasons, #integrations, #passHate, #rates, #payments, #boards, #about, #contact, #footer`,
+    )
+  }, [])
   return (
     <div className="overflow-x-hidden bg-gray-100">
       <Header />
